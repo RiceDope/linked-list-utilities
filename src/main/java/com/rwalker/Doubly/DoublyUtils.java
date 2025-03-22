@@ -10,7 +10,7 @@ public class DoublyUtils {
      * Method to return a string representation of a doubly linked list
      * @param head the head of the list
      * @param nextMethod the method to call to get the next item
-     * @return
+     * @return String representation of the list
      */
     public static String dString(Object head, String nextMethod) {
 
@@ -32,7 +32,14 @@ public class DoublyUtils {
 
     }
 
-    
+    /**
+     * Method to remove an item from a doubly linked list
+     * @param item the item to remove
+     * @param nextGet the method to call to get the next item
+     * @param previousGet the method to call to get the previous item
+     * @param nextSet the method to call to set the next item
+     * @param previousSet the method to call to set the previous item
+     */
     public static void remove(Object item, String nextGet, String previousGet, String nextSet, String previousSet) {
 
         try {
