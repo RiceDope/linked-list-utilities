@@ -1,4 +1,5 @@
 package com.rwalker.Doubly;
+import java.util.Comparator;
 
 /**
  * Class that handles all utilities for a doubly linked list
@@ -86,5 +87,10 @@ public class DoublyUtils {
         }
     }
 
-    
+    public static <E> Object sort(E head, String nextGet, String nextSet, String previousGet, String previousSet, Comparator<E> comp) {
+
+        // Method unimplemented
+
+        return null;
+    }
 }
